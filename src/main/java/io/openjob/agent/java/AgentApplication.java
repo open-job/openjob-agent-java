@@ -7,7 +7,7 @@ import picocli.CommandLine;
  * @author stelin swoft@qq.com
  * @since 1.0.4
  */
-public class AgentBootApplication {
+public class AgentApplication {
     public static void main(String[] args) {
         new CommandLine(new AgentCommand()).execute(args);
     }
