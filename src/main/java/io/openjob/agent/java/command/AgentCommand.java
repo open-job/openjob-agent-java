@@ -11,7 +11,7 @@ import picocli.CommandLine;
  * @since 1.0.4
  */
 @Slf4j
-@CommandLine.Command(name = "Openjob-agent-java", mixinStandardHelpOptions = true, version = "1.0.4")
+@CommandLine.Command(name = "Openjob-agent-java", mixinStandardHelpOptions = true, version = "1.0.7")
 public class AgentCommand implements Runnable {
 
     /**
